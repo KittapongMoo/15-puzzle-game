@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>15 Puzzle Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>GOAL!!</h2>
+      <div id="image-container">
+        <img src="img/Doggy.jpg" alt="Image" />
+      </div>
+      <h2>Please user ⬅⬆⬇➡ or left click to move</h2>
+    </div>
+
+    <div class="container">
+      <h1>15-Puzzle Game</h1>
+      <div id="puzzle-container"></div>
+      <div id="user-modal" class="modal">
+        <div class="modal-content">
+          <label for="user-name-input">Enter your name:</label>
+          <input type="text" id="user-name-input" />
+          <button id="submit-name-button">Submit</button>
+        </div>
+      </div>
+      <button id="start-button">Start Game</button>
+      <div id="timer">Time: 00:00:00</div>
+    </div>
+    <div id="scoreboard">
+      <h2>Scoreboard TOP 10</h2>
+      <ul id="scores"></ul>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
