@@ -117,11 +117,7 @@ body {
     transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
 }
 
-.tile:hover {
-    transform: scale(1.05);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    background: linear-gradient(135deg, #e0e0e0, #f9f9f9);
-}
+
 
 .empty {
     background: none;
